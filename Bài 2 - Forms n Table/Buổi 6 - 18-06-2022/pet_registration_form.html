@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Registration Form</title>
+</head>
+<body>
+    <h1>Pet Registration Form</h1>
+    <form action="">
+        <fieldset>
+            <legend>General Information</legend>
+            Name: <input type="text" name="name"><br>
+            Species: 
+            <input type="radio" name="species" value="puppy"> Puppy
+            <input type="radio" name="species" value="kitten"> Kitten
+            <input type="radio" name="species" value="hamster"> Hamster
+            <input type="radio" name="species" value="other"> Other
+            <br>
+            Gender:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+            <br>
+            Age: <input type="number" name="age" min="1" max="100">
+            <br>
+            DoB: <input type="date" name="birthday">
+            <br>
+            Address:
+            <select name="city">
+                <option value="HCM">Ho Chi Minh</option>
+                <option value="HN">Ha Noi</option>
+                <option value="DN">Da Nang</option>
+                <option value="CT">Can Tho</option>
+            </select> 
+            <select name="district">
+                <option value="Q1">Quan 1</option>
+                <option value="Q2">Quan 2</option>
+                <option value="Q3">Quan 3</option>
+                <option value="Q4">Quan 4</option>
+                <option value="Q5">Quan 5</option>
+            </select>
+            <select name="ward">
+                <option value="P1">Phuong 1</option>
+                <option value="P2">Phuong 2</option>
+                <option value="P3">Phuong 3</option>
+                <option value="P4">Phuong 4</option>
+                <option value="P5">Phuong 5</option>
+            </select>
+            <br>
+            Fur color:
+            <select name="furColor">
+                <option value="white">White</option>
+                <option value="black">Black</option>
+                <option value="orange">Orange</option>
+                <option value="brown">Brown</option>
+                <option value="yellow">Yellow</option>
+                <option value="gray">Gray</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Pet Photo</legend>
+            Upload photo of your pet here. <br>
+            <input type="file" name="petPhoto">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Things pet loves</legend>
+            <input type="checkbox" name="love" value="eating"> Eating
+            <input type="checkbox" name="love" value="ass_licking"> Ass Licking
+            <input type="checkbox" name="love" value="sun_bathing"> Sun Bathing
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Things pet hates</legend>
+            <input type="checkbox" name="hate" value="shower"> Shower
+            <input type="checkbox" name="hate" value="petting"> Petting
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Special Notes</legend>
+            <textarea name="specialNote" cols="30" rows="10"></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
