@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form cơ bản</title>
+    <style>
+        * {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <h1>Order Form</h1>
+        <p><b>What would you like to buy?</b></p>
+        <select name="food">
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+        </select>
+
+        <p><b>How many would you like to order?</b></p>
+        <input type="radio" name="rd"> 1 - $10 <br>
+        <input type="radio" name="rd"> 2 - $20 <br>
+        <input type="radio" name="rd"> 3 - $25 <br>
+
+        <p><b>Name <span style="color: red;">*</span></b></p>
+        <input type="text" name="firstName" placeholder="FirstName">
+        <input type="text" name="lastName" placeholder="LastName">
+
+        <p><b>Email</b></p>
+        <input type="email" name="email">
+
+        <p><b>Phone Number</b></p>
+        <input type="text" name="firstNum" size="5"> -
+        <input type="text" name="secondNum" size="5"> -
+        <input type="text" name="thirdNum" size="5">
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
