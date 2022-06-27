@@ -1,0 +1,26 @@
+body {
+    background-color:bisque;
+    color:chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 44px;
+    width: 50%;
+    margin: auto;
+}
+h2 {
+    background-color:blueviolet;
+    width: 50%;
+    height:50px;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+}
+img {
+    border-width: 15px;
+    border-style: solid;
+    border-color:aquamarine;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 30px;
+}
