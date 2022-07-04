@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+.para1 {
+    border: none;
+    background-color: powderblue;
+    color:#008F96;
+    text-align: right;
+    width: 51%;
+}
+.para2 {
+    background-color: #E7FAFA;
+    border: 5px solid #C1E8E8;
+    color: #008F96;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tit {
+    font-size: 30px;
+}
+span {
+    text-decoration: underline dashed #008F96;
+}
+.tex {
+    margin-top: 0;
+}

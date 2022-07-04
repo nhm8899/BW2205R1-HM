@@ -1,0 +1,131 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5E8FB5;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 20%;
+}
+
+header img {
+    height: 80%;
+    margin: 20px;
+}
+
+header ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 105px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+header ul li:hover {
+    color: orange;
+    font-weight: 600;
+}
+
+header button {
+    background-color: white;
+    border: 1px solid #5E8FB5;
+    color: #5E8FB5;
+    float: right;
+    margin-top: 90px;
+    margin-right: 50px;
+    height: 50px;
+    padding: 5px 25px;
+}
+
+.banner {
+    border: none;
+    width: 100%;
+    height: 70%;
+}
+
+.intro {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    padding: 50px 20%;
+    box-sizing: border-box;
+    line-height: 40px;
+}
+
+.intro button,
+.welcome button {
+    background-color: white;
+    border: 1px solid #5E8FB5;
+    color: #5E8FB5;
+    height: 50px;
+    padding: 5px 25px;
+    transition: 2s;
+    transition-delay: 2s;
+}
+
+button:hover {
+    color: orange;
+    border-color: orange;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.welcome {
+    background-color: #E1EFF4;
+    padding: 100px 30px;
+    height: 2200px;
+}
+
+.welcome>h2 {
+    text-align: center;
+}
+
+.welcome>h2::first-letter {
+    font-size: 40px;
+    color: orange;
+    text-decoration: underline;
+}
+
+.note {
+    text-align: center;
+}
+
+.house-intro {
+    width: 46%;
+    height: 700px;
+    background-color: white;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.house-intro:nth-child(5),
+.house-intro:nth-child(6),
+.house-intro:nth-child(7) {
+    width: 29%;
+    height: 400px;
+}
+
+.house-intro img {
+    width: 100%;
+    height: 500px;
+}
+
+.house-intro:nth-child(5) img,
+.house-intro:nth-child(6) img,
+.house-intro:nth-child(7) img {
+    height: 50%;
+}
+
+.house-intro p {
+    color: darkgray;
+}
