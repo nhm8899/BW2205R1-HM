@@ -1,0 +1,135 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(38, 36, 36);
+    color: gray;
+}
+
+header ul li {
+    list-style-type: none;
+    float: left;
+    margin: 50px 50px;
+}
+
+header ul li:hover {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+    margin: 43px 50px;
+}
+
+.login {
+    float: right;
+}
+
+.menu {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: rgb(237, 233, 233);
+    margin-bottom: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    margin: 30px 120px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+
+.main-content {
+    width: 58%;
+    height: 100%;
+    float: left;
+    color: gray;
+    padding: 25px;
+    margin-bottom: 0;
+}
+
+.main-content p {
+    margin-top: 40px;
+}
+
+.ads {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: rgb(237, 233, 233);
+    margin-bottom: 0;
+}
+
+.ads p {
+    margin: 30px 60px;
+    text-align: center;
+    width: 60%;
+    height: 60px;
+    border: 2px solid gray;
+    padding: 10px;
+    color: gray;
+}
+
+footer {
+    background-color: gray;
+    width: 100%;
+    height: 15%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    header ul li{
+        margin: 30px 10px;
+    }
+    .logo {
+        margin: 22px 10px;
+    }
+    .menu ul li {
+        margin: 30px 40px;
+    }
+    .main-content {
+        padding: 5px;
+    }
+    .ads p {
+        margin: 30px 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .logo {
+        font-size: 26px;
+        margin: 26px 5px;
+    }
+    .menu ul li {
+        margin: 30px 15px;
+    }
+    .ads p {
+        margin: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu ul li {
+        margin: 30px 0px;
+    }
+    .ads p {
+        margin: 30px 12px;
+    }
+}
